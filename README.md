@@ -1,2 +1,2 @@
-# dash-uwsgi-flask-nginx
-Plotly DASH + uWSGI + Flask + Nginx
+# Plotly Dash Flask
+Plotly DASH + uWSGI + Flask

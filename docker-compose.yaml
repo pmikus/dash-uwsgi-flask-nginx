@@ -1,0 +1,14 @@
+version: "3"
+services:
+  dash:
+    build: "."
+    command: "uwsgi app.ini"
+    environment:
+      AWS_ACCESS_KEY_ID: ""
+      AWS_SECRET_ACCESS_KEY: ""
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./app/:/app"
+      - "/home/vagrant/.aws:/root/.aws"
+    working_dir: "/app"

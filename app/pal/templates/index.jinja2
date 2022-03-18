@@ -1,0 +1,14 @@
+{% extends "layout.jinja2" %}
+
+{% block content %}
+<div class="card">
+  <h1 class="site-title">{{ title }}</h1>
+  <p class="subtitle">{{ description }}</p>
+  <div>
+    <a href="/trending/" class="dash-link">
+      <span>Trending</span>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+</div>
+{% endblock %}
