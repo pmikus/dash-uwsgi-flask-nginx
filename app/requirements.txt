@@ -34,4 +34,4 @@ tenacity==8.0.1
 uWSGI==2.0.20
 webassets==2.0
 Werkzeug==2.0.2
-wheel==0.37.0
+wheel==0.38.1
